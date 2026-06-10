@@ -1,0 +1,68 @@
+name: vitalex
+description: A dyslexia detection and coping assistance app
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ✅ UI Icons
+  cupertino_icons: ^1.0.8
+
+  # ✅ Fonts
+  google_fonts: ^6.2.1
+
+  # ✅ Speech-to-Text (STT)
+  speech_to_text: ^7.0.0
+
+  # ✅ Permissions (mic access)
+  permission_handler: ^11.0.1
+
+  # ✅ File picker (Reader)
+  file_picker: ^8.1.2
+
+  # ✅ PDF Reader
+  syncfusion_flutter_pdf: ^24.1.41
+
+  # ✅ DOCX Reader
+  docx_to_text: ^1.0.0
+
+  # ✅ Text-to-Speech (TTS)
+  flutter_tts: ^4.0.2
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.5
+  firebase_core: ^4.6.0
+  firebase_auth: ^6.3.0
+  cloud_firestore: ^6.2.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ✅ Assets
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  # ✅ Dyslexia-friendly font
+  fonts:
+    - family: OpenDyslexic
+      fonts:
+        - asset: assets/fonts/OpenDyslexic-Regular.otf
+        - asset: assets/fonts/OpenDyslexic-Bold.otf
+          weight: 700
+        - asset: assets/fonts/OpenDyslexic-Italic.otf
+          style: italic
+        - asset: assets/fonts/OpenDyslexic-BoldItalic.otf
+          weight: 700
+          style: italic
