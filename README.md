@@ -179,9 +179,12 @@ service cloud.firestore {
 ---
 
 ## Author
-
+Team leader:
 Afrin Shehnas H
-
+other members:
+Aaron siju
+Anjana Krishna R
+Ashly Elsa Ajith
 ---
 
 ## License
